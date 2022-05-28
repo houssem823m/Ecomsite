@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Supermercado+One&display=swap');
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(251, 252, 223);
+}
+
+
+/* bar de nav*/
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(255, 255, 197);
+    position: sticky;
+    top: 0;
+}
+nav h1{
+    font-size: 20px;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets a{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #adadad;
+}
+.Link{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    margin: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+    background: rgb(255, 250, 183);
+    transition: 0.2s ease;
+    border-radius: 15px ;
+    margin-bottom: 30px;
+    
+    
+}
+
+    
+
+.cards .card img{
+    width: 300px;
+    transition: 0.2s ease;
+    border-radius: 15px ;
+}
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards .card .card-body p{
+    margin-top: -10px;
+}
+
+.title{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-indent: 10px;
+}
+
+.price{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+    text-indent: 10px;
+
+}
+
+.descreption{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-indent: 10px;
+}
+
+
+/*contact*/
+
+.contact{
+    background-color: black;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    
+}
